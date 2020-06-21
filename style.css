@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sriracha&display=swap');
+* {
+     box-sizing: border-box;
+}
+
+/*Warna untuk BackGround*/
+.anggota1:hover {
+    background-color: #00a8ff;
+}
+
+.anggota2:hover{
+    background-color:#e84118;
+}
+
+.anggota3:hover{
+    background-color:#fbc531;
+}
+
+.anggota4:hover{
+    background-color:#4cd137;
+}
+
+.anggota5:hover{
+    background-color:#353b48;
+}
+
+.gray {
+    background-color:#7f8fa6;
+}
+
+/*---------------------------*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    border: 20px solid #353b48;
+    font-family: 'Sriracha', cursive;
+}
+
+header h1{
+    margin:0px;
+    color: #f7f7f7;
+}
+
+.title-top h1{
+    text-align: center;
+    animation-name: title-top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-top{
+    0%{
+     color: #ff6161;
+     text-shadow: 2px 2px 20px #ff0000;
+    }
+    80%{
+     color: #ff6161;
+     text-shadow: 2px 2px 20px #ff0000;
+    }
+    81%{
+     color: #f7f7f7;
+     text-shadow: none;
+    }
+ }
+
+.title-middle {
+    text-align: center;
+    animation-name: title-middle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-middle{
+    0%{
+        color: #f7f7f7;
+        text-shadow: unset;
+    }
+    20%{
+        color: #f7f7f7;
+        text-shadow: unset;
+    }
+    21%{
+        color: #4763ff;
+        text-shadow: 2px 2px 20px #0000ff;
+    }
+
+    80%{
+        color: #4763ff;
+        text-shadow: 2px 2px 20px #0000ff;
+    }
+    81%{
+     color: #f7f7f7;
+     text-shadow: none;
+    }
+ }
+
+.title-bottom {
+    text-align: center;
+    animation-name: title-bottom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-bottom{
+    0%{
+        color: #f7f7f7;
+        text-shadow: unset;
+    }
+    40%{
+        color: #f7f7f7;
+        text-shadow: unset;
+    }
+    41%{
+        color: #5eff7e;
+        text-shadow: 2px 2px 20px #00ff00;
+    }
+
+    80%{
+        color: #5eff7e;
+        text-shadow: 2px 2px 20px #00ff00;
+    }
+    81%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+ } 
+
+.profile-robby {
+    display: block;
+    transition: all 1s;
+    color: #f5f6fa;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-button {
+    flex-basis: 20%;
+    color: white;
+    transition: all 0.75s;
+    text-align: center;
+    padding: 15px;
+    opacity: 0.7;
+    background-color: #40739e;
+}
+
+
+.nav-button:hover{
+    flex-basis: 40%;
+    opacity: 1;
+}
+
+.nav-button p{
+    margin:0px;
+}
+
+.profile-robby-wrapper {
+    border-top: 20px solid #00a8ff;
+    border-bottom: 20px solid #00a8ff;
+    background-color: #00a8ff;
+    transition: all 1s;
+}
+
+.profile-robby h3{
+    font-size: 46px;
+    padding: 15px;
+    background-color: #0097e6;
+    color: white;
+    margin: 0px;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.profile-robby p{
+    padding: 30px;
+    margin: auto 0px;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+
+.profile-robby-intro {
+    display: flex;
+    transition: all 1s;
+}
+
+.profile-robby-intro:hover {
+    background-color: #0097e6;
+}
+
+.profile-robby-intro img{
+    display: block;
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.profile-robby-intro figure{
+    margin: 30px;
+    flex-basis: 50%;
+}
+
+.profile-robby-intro p{
+    flex-basis: 50%;
+}
+
+.profile-robby-food{
+    display: flex;
+    flex-flow: row-reverse;
+    transition: all 1s;
+}
+
+.profile-robby-food:hover {
+    background-color: #0097e6;
+}
+
+.profile-robby-food figure{
+    flex-basis: 50%;
+    margin: 30px;
+}
+
+.profile-robby-food img{
+    display: block;
+    width: 100%;
+}
+
+.profile-robby-food p{
+    flex-basis: 50%;
+}
+
+.profile-robby-dts:hover {
+    background-color: #0097e6;
+}
+
+.profile-robby-dts{
+    display: flex;
+    transition: all 1s;
+}
+
+.profile-robby-dts figure{
+    flex-basis: 50%;
+    margin: 30px;
+}
+
+.profile-robby-dts img{
+    width: 100%;
+}
+
+.profile-robby-dts img{
+    display: block;
+    width: 100%;
+}
+
+.profile-robby-dts p{
+    flex-basis: 50%;
+}
