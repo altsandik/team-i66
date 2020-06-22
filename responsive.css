@@ -1,0 +1,68 @@
+@media (max-width:670px){
+    .introduce-wrapper .container {
+        display: block;
+        padding: 0px;
+    }
+    
+    .right{
+        margin:0px;
+    }
+
+    .top-wrapper h3{
+        padding-left: 0px;
+    }
+
+    .img-1{
+        margin: 0px auto;
+        max-height: 300px;
+        width: 60%;
+    }
+
+    .container .message-wrapper{
+        margin: 0px;
+    }
+
+    h2,h4{
+        text-align: center;
+    }
+
+    .message-wrapper p{
+        margin:10px 10px;
+        text-align: justify;
+    }
+
+    .message-wrapper a{
+        display: block;
+        margin: 10px;
+        max-width: unset;
+        text-align: center;
+    }
+
+    .btn{
+        flex-basis: unset;
+        flex: auto;
+    }
+
+    .footer-left{
+        float: unset;
+    }
+
+    h6{
+        text-align: center;
+    }
+    .footer-right{
+        float: unset;
+    }
+
+    .logo-1{
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .logo-2{
+        float: right;
+        margin-right: 10%;
+    }
+
+}
